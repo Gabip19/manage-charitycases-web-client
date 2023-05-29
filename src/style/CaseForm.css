@@ -1,0 +1,40 @@
+.form-container {
+    margin: 100px auto;
+}
+
+.form-container form {
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+.input-field {
+    border: none;
+    border-bottom: 1px solid #afafaf;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.form-container .input-field:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.add-btn {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #e8e8e8;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    width: 100%;
+}

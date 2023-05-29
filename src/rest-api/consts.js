@@ -1,0 +1,1 @@
+export const MANAGE_CASES_BASE_URL = "http://localhost:8080/teledon/charity-cases";
